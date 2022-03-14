@@ -1,7 +1,8 @@
 from Question_Modal import Question
 from data import question_data
 from Work_Brain import *
-
+import art
+print(art.logo)
 Question_Bank = []
 for i in question_data:
     question_text = i['question']
